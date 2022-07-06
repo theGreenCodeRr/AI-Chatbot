@@ -1,6 +1,5 @@
-.idea/
-!.idea/.gitignore
 .vscode/
 Backend/venv/
 Backend/__pycache__/
 Backend/.idea/
+!Backend/.idea/.gitignore
