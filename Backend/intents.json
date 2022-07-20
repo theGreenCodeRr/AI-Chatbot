@@ -8,22 +8,133 @@
         "How are you",
         "Is anyone there?",
         "Hello",
-        "Good day"
+        "Good day",
+        "hello",
+        "hey",
+        "hi",
+        "good day",
+        "greetings",
+        "what's up?",
+        "how is it going"
       ],
       "responses": [
         "Hey :-)",
+        "hello",
+        "hey!",
+        "what can i do for you?",
         "Hello, thanks for visiting",
         "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hi there, what would you want to know ?"
+      ]
+    },
+
+    {
+      "tag": "age",
+      "patterns": [
+        "how old",
+        "how old are you?",
+        "what is your age",
+        "how old are you",
+        "age?"
+      ],
+      "responses": [
+        "I get reborn after every compilation",
+        "hey!",
+        "my owners are averagely 23 years!"
       ]
     },
     {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "what should i call you",
+        "what's your name?",
+        "who are you?",
+        "can you tell me your name"
+      ],
+      "responses": [
+        "you can call me Sekmet!",
+        "i am Sekmet!",
+        "i am Sekmet your medical assistant"
+      ]
+    },
+    {
+      "tag": "statues",
+      "patterns": [
+        "i feel tired",
+        "i am not good today",
+        "i can not do anything"
+      ],
+      "responses": ["what do you feel?", "What are the symptoms you have?"]
+    },
+    {
+      "tag": "ask",
+      "patterns": ["what do you serve?", "what do you do?"],
+      "responses": [
+        "a]Corona virus test\nb]protection from corona virus\nC]take care of myself\nD]Symptoms for Corona virus\nE]vaccines for corona virus\nf]caring for a casualty"
+      ]
+    },
+    {
+      "tag": "test",
+      "patterns": ["Corona virus test", "a"],
+      "responses": ["what are the symptoms you have?", "what do you feel?"]
+    },
+    {
+      "tag": "protection",
+      "patterns": ["protection from corona virus", "b"],
+      "responses": [
+        "Avoid crowds, and use masks to prevent infection.\nAttention to hygiene in general.\nKeep away from places with high humidity.\nWash hands well.\nAvoid touching the eyes,nose,or mouth before washing hands.\nNot to deal directly or indirectly with people infected with the virus\n"
+      ]
+    },
+    {
+      "tag": "take care of myself",
+      "patterns": ["take care of myself", "c"],
+      "responses": [
+        "Stay home and only go to hospital to get medical care.\nAvoid using public transportation.\nStay isolated in one room away from family members and others.\nEat in your room,Open windows to keep air circulating.\nUse a separate bathroom if you can.\nWhen sitting with others in one place,reduce your range of motion.\nStay 6 feet (2 meters) away from family members.\nClean the most touchable surfaces in your separate room and bathroom.\nAvoid sharing personal household items.\n"
+      ]
+    },
+    {
+      "tag": "caring for a casualty",
+      "patterns": ["caring for a casualty", "f"],
+      "responses": [
+        "Keep your hands clean and make sure they don't touch your face.\nWear a mask. If you have to be in the same room with the sick person.\nYou must stay at least 6 feet (2 meters) away from the sick person.\nIf your mask gets wet or dirty, replace it with another one.\nUse sprays of household cleaners or wet wipes to clean more touchable surfaces\nAvoid cleaning the sick person's room and bathroom.\nAllocate a set of mattresses and utensils for the sick person to use alone.\nAvoid receiving visitors until the sick person recovers\n"
+      ]
+    },
+    {
+      "tag": "Symptoms for covid",
+      "patterns": ["Symptoms for the Corona virus", "d"],
+      "responses": [
+        "fever\ndry cough\n•\tstress\nloss of taste and smell,\nNasal congestion,\nconjunctivitis (also known as red eyes),\nSore throat,\nheadache,\nmuscle or joint pain,\nvarious rash patterns,\nnausea or vomiting,\ndiarrhea,\ntremors or dizziness\n"
+      ]
+    },
+    {
+      "tag": "vaccines",
+      "patterns": ["vaccines for corona virus", "e"],
+      "responses": [
+        "There are some vaccines approved by the World Health Organization,such as:\nPfizer Vaccine\nAstraZeneca vaccine\nJohnson's Vaccine\nTo get the vaccine, you must register on this website:\nhttps://egcovac.mohp.gov.eg/#/home\n"
+      ]
+    },
+
+    {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "cya",
+        "see you later",
+        "goodbye",
+        "have a good day",
+        "bye",
+        "cao",
+        "see ya"
+      ],
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
-        "Bye! Come back again soon."
+        "Bye! Come back again soon.",
+        "have a nice day",
+        "goodbye"
       ]
     },
     {
@@ -32,56 +143,72 @@
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
-      "tag": "services",
+      "tag": "symptoms",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?",
-        "What's service you are provide ?"
+        "fever",
+        "high temp",
+        "cough",
+        "Nasal congestion",
+        "muscle or joint pain"
       ],
       "responses": [
-        "We make Dr appointment and sells Medicines",
-        "Dr appointment and Medicines",
-        "We can make an appointment for you and provide Medicines"
+        "do you feel any thing else ?\nlike hard breathing or extreme fatigue with minimal effort or chest pain?"
       ]
     },
     {
-      "tag": "payments",
-      "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
-      ],
+      "tag": "hard breathing",
+      "patterns": ["hard breathing"],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "please choose one or both of these symptoms:\n1]loss of sense of smell and taste or 2]dry cough or 3]both"
       ]
     },
     {
-      "tag": "delivery",
-      "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
-      ],
+      "tag": "yes",
+      "patterns": ["yes"],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "please choose one or both of these symptoms:\n1]loss of sense of smell and taste or 2]dry cough or 3] both"
       ]
     },
     {
-      "tag": "appointment",
-      "patterns": [
-        "How long takes for making appointment?",
-        "is Dr available?",
-        "now can I confirm the appointment?"
-      ],
+      "tag": "no",
+      "patterns": ["NO"],
       "responses": [
-        "We'll confirm you in 5 minutes",
-        "Let me check you",
-        "You will be confirmed by Email or SMS",
-        "I'll get back to you in a moment"
+        "please choose one or both of these symptoms:\n1]loss of sense of smell and taste or 2]dry cough or 3]both, 4]nothing else"
+      ]
+    },
+    {
+      "tag": "loss of sense of smell and taste",
+      "patterns": ["loss of sense of smell and taste", "1"],
+      "responses": [
+        "you're suspected coronavirus pls follow these instructions:\nComforts\nTake some antibiotics and vitamins\nEat fruits and vegetables rich in vitamins to increase immunity\nWearing a mask and changing it daily\nDrink plenty of fluids\nThe precautionary distancing from people is at a distance of 2 meters\nWash hands well and frequently\n"
+      ]
+    },
+    {
+      "tag": "dry cough",
+      "patterns": ["dry cough", "2"],
+      "responses": [
+        "you're suspected coronavirus pls follow these instructions:\nComforts\nTake some antibiotics and vitamins\nEat fruits and vegetables rich in vitamins to increase immunity\nWearing a mask and changing it daily\nDrink plenty of fluids\nThe precautionary distancing from people is at a distance of 2 meters\nWash hands well and frequently\n"
+      ]
+    },
+    {
+      "tag": "both",
+      "patterns": ["both", "3"],
+      "responses": [
+        "you have coronavirus pls goto any nearst hospital and do required medical tests:\npolymerase chain reaction test,Antibody assay,blood test\nIf you want to ask for anything else,\nplease Enter continue or goodbye to exit"
+      ]
+    },
+    {
+      "tag": "menu",
+      "patterns": ["continue"],
+      "responses": [
+        "a]Corona virus test\nb]protection from corona virus\nC]How to protect others if you are sick?\nD]Symptoms associated with the Corona virus\nE]How to get the available vaccines for the corona virus?\nf]How to protect yourself while caring for someone with COVID-19?"
+      ]
+    },
+    {
+      "tag": "nothing else",
+      "patterns": ["nothing else", "4"],
+      "responses": [
+        "there is nothing dangerous, please stay home and take some rest"
       ]
     }
   ]
