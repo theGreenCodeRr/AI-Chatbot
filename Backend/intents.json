@@ -53,9 +53,9 @@
         "can you tell me your name"
       ],
       "responses": [
-        "you can call me Sekmet!",
-        "i am Sekmet!",
-        "i am Sekmet your medical assistant"
+        "you can call me Sekhmet!",
+        "i am Sekhmet!",
+        "i am Sekhmet your medical assistant"
       ]
     },
     {
@@ -101,6 +101,19 @@
       ]
     },
     {
+      "tag": "symptoms",
+      "patterns": [
+        "fever",
+        "high temp",
+        "cough",
+        "Nasal congestion",
+        "muscle or joint pain"
+      ],
+      "responses": [
+        "do you feel any thing else ?\nlike hard breathing or extreme fatigue with minimal effort or chest pain?"
+      ]
+    },
+    {
       "tag": "Symptoms for covid",
       "patterns": ["Symptoms for the Corona virus", "d"],
       "responses": [
@@ -112,47 +125,6 @@
       "patterns": ["vaccines for corona virus", "e"],
       "responses": [
         "There are some vaccines approved by the World Health Organization,such as:\nPfizer Vaccine\nAstraZeneca vaccine\nJohnson's Vaccine\nTo get the vaccine, you must register on this website:\nhttps://egcovac.mohp.gov.eg/#/home\n"
-      ]
-    },
-
-    {
-      "tag": "goodbye",
-      "patterns": [
-        "Bye",
-        "See you later",
-        "Goodbye",
-        "cya",
-        "see you later",
-        "goodbye",
-        "have a good day",
-        "bye",
-        "cao",
-        "see ya"
-      ],
-      "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon.",
-        "have a nice day",
-        "goodbye"
-      ]
-    },
-    {
-      "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    },
-    {
-      "tag": "symptoms",
-      "patterns": [
-        "fever",
-        "high temp",
-        "cough",
-        "Nasal congestion",
-        "muscle or joint pain"
-      ],
-      "responses": [
-        "do you feel any thing else ?\nlike hard breathing or extreme fatigue with minimal effort or chest pain?"
       ]
     },
     {
@@ -210,6 +182,33 @@
       "responses": [
         "there is nothing dangerous, please stay home and take some rest"
       ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "cya",
+        "see you later",
+        "goodbye",
+        "have a good day",
+        "bye",
+        "cao",
+        "see ya"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "have a nice day",
+        "goodbye"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
     }
   ]
 }
